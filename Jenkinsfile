@@ -20,7 +20,7 @@ pipeline {
         }
         stage('infra provisioning') {
             steps {
-                sh 'cd infra/Terraform && terraform init && terraform workspace select dev && terraform apply -var-file="dev.tfvars" -auto-approve'
+                sh 'cd infra/Terraform && terraform init && terraform workspace select dev && pwd && terraform apply -var-file="dev.tfvars" -auto-approve'
             }
             
         }
