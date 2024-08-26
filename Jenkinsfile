@@ -13,8 +13,8 @@ pipeline {
         }
         stage('build docker image') {
             steps {
-                sh 'docker image build -t siadevops/nopcoommerce:latest .'
-                sh 'docker image push siadevops/nopcoommerce:latest'
+                sh 'sudo docker image build -t siadevops/nopcoommerce:latest .'
+                sh 'sudo docker image push siadevops/nopcoommerce:latest'
             }
             
         }
