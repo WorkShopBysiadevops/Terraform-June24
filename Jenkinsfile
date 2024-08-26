@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('git') {
             steps{
-                git url: 'https://github.com/WorkshopsByKhaja/Terraform-June24.git',
+                git url: 'https://github.com/WorkShopBysiadevops/Terraform-June24.git',
                 branch: 'develop'
             }
             
