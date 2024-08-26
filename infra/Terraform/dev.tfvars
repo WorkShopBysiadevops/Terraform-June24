@@ -1,5 +1,5 @@
 resource_group_name = "dev-workshop"
-location            = "eastus"
+location            = "Central India"
 aks_info = {
   node_count     = 1
   node_pool_name = "default"
