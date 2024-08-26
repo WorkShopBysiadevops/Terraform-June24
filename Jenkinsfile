@@ -13,8 +13,8 @@ pipeline {
         }
         stage('build docker image') {
             steps {
-                sh 'docker image build -t shaikkhajaibrahim/nop-demo-terraform:latest .'
-                sh 'docker image push shaikkhajaibrahim/nop-demo-terraform:latest'
+                sh 'docker image build -t siadevops/nopcoommerce:latest .'
+                sh 'docker image push siadevops/nopcoommerce:latest'
             }
             
         }
