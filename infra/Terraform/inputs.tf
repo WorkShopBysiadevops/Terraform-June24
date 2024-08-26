@@ -6,7 +6,7 @@ variable "resource_group_name" {
 variable "location" {
   type        = string
   description = "location"
-  default     = "eastus"
+  default     = "Central India"
 }
 
 variable "aks_info" {
